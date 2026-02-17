@@ -1,0 +1,21 @@
+/* VirtualList — prefix: vlist */
+
+.vlist__scroll-container {
+  overflow-y: auto;
+  height: 100%;
+  position: relative;
+}
+
+.vlist__total-height-wrapper {
+  position: relative;
+}
+
+.vlist__top-spacer,
+.vlist__bottom-spacer {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.vlist__item-wrapper {
+  padding: 4px 8px;
+}
